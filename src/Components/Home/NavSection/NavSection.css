@@ -1,0 +1,20 @@
+.navfont{
+    font-size: 1.5rem;
+}
+a:hover{
+border-bottom:5px solid rgb(6, 185, 185);
+border-radius: 7px;
+text-decoration: none !important;
+}
+.btnItem{
+    border-top-left-radius: 27px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    width: 9rem;
+    height: 3rem;
+    background-image: linear-gradient(to right, rgb(107, 228, 137),cyan, );
+}
+.btnItem:focus{
+    outline: none;
+    
+}
