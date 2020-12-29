@@ -41,7 +41,7 @@ const Search = () => {
     }
     const searchMove = () => {
         // console.log(searchInput.current.value);
-        const _key='AIzaSyAkyKMm3jOsLZ7BbEHpeTDPu6UzrSmKOF8';
+        const _key='/* YOUR KEY HERE */';
         let youtubeURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=${searchInput.current.value}&type=video&key=${_key}`
         fetch(youtubeURL)
             .then(res => res.json())
